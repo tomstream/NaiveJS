@@ -38,22 +38,22 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="node.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="parse.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="str.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="type.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="run.h">
+      <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="map.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="run.h">
+    <ClInclude Include="node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="str.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="type.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

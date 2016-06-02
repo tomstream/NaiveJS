@@ -50,6 +50,11 @@ AstNode* loadVariable(const char* varname, int i){
 }
 
 void saveVariable(const char* varname, AstNode* astNode,int i){
+	AstNode *val = map_get(&nodeMap[i], varname);
+	if (val) {
+		free(val);
+		//printf("value: %d\n", *val);
+	}
 	map_set(&nodeMap[i], varname, *astNode);
 }
 

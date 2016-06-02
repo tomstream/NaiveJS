@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include "node.h"
+
 #define TOKEN_INT 0
 #define TOKEN_DOUBLE 1
 #define TOKEN_STRING 2
@@ -81,7 +82,6 @@
 
 #define ERROR 9999
 #define NOTNULL 10000
-
 #define AstArrayA(n) char *(*a[n][10])(char*, AstNode**)
 
 #define AstArray(name,n) char *(* ##name[n][10])(char*, AstNode**)

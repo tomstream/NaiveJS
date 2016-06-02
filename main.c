@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
 	initMap();
 	initNode();
 	char* code;
-	if(argc==1)code =filter("test3.js");
+	if(argc==1)code =filter("test7.js");
 	else{
 		code = filter(argv[1]);
 		if (!code){

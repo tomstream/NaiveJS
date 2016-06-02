@@ -97,11 +97,9 @@ AstArray(Stmt, 20) =
 { *readExpr, *readSemicolon, 0 },
 //{*readDoWhileStmt,0},
 //{*readForStmt,0},
-
 { *readBlock, 0 },
 { *readVarDefStmt, 0 },
 //{*readSwitchStmt,0},
-
 { *readNewStmt, 0 },
 { 0 } };
 AstArray(NewStmt, 3) = { { *readStringNew, *readSpace, *readFactor, *readLeftBrace, *readExpList, *readRightBrace, 0 }, { 0 } };
